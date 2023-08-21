@@ -1,4 +1,4 @@
-# NBA_Points_Model
+# NBA_Points_Model (In progress)
 Using a dataset of common team statistics from the 2019 season, try to predict the results of each Sacramento Kings game as the season progresses.
 
 ## Stream of conciousness workflow
@@ -8,7 +8,7 @@ Using a dataset of common team statistics from the 2019 season, try to predict t
 - Feature engineering was done using data from the 2018 season, found that essentially field goals made, three pointers made, and free throws made were the most important (makes sense)
 - Different regression models will be fit to these parameters and points
 - Simulations are run with random gaussian samplings of the key features based on the mean and standard deviation of those features over the last X games
-- loop the code to run the simulations for every game in the season from game X-72, where X is the number of games needed for the mean and std sample.
+- loop the code to run the simulations for every game in the season from game X-72, where X is the number of games needed for the mean and std sample. (working plan to do this by August 31 2023)
 
 ### Features
 | Parameter | Description |
