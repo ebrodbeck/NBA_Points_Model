@@ -10,6 +10,11 @@ Using a dataset of common team statistics from the 2019 season, try to predict t
 - Simulations are run with random gaussian samplings of the key features based on the mean and standard deviation of those features over the last X games
 - loop the code to run the simulations for every game in the season from game X-72, where X is the number of games needed for the mean and std sample.
 
+### Features
+| Parameter | Center-aligned |
+|:------------|:--------------:|
+| Left cell   |   Center cell  |
+| Left cell 2 |   Center cell  |
 ### Correlation Heatmap for Available Features
 ![](https://github.com/ebrodbeck/NBA_Points_Model/blob/main/Correlation%20Heatmap.png)
 ### Ranked Correlations of Features with "Points Scored"
