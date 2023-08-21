@@ -11,10 +11,10 @@ Using a dataset of common team statistics from the 2019 season, try to predict t
 - loop the code to run the simulations for every game in the season from game X-72, where X is the number of games needed for the mean and std sample.
 
 ### Features
-| Parameter | Center-aligned |
+| Parameter | Description |
 |:------------|:--------------:|
-| Left cell   |   Center cell  |
-| Left cell 2 |   Center cell  |
+| xx |  xx  |
+| xx |  xx  |
 ### Correlation Heatmap for Available Features
 ![](https://github.com/ebrodbeck/NBA_Points_Model/blob/main/Correlation%20Heatmap.png)
 ### Ranked Correlations of Features with "Points Scored"
