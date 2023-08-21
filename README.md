@@ -13,8 +13,27 @@ Using a dataset of common team statistics from the 2019 season, try to predict t
 ### Features
 | Parameter | Description |
 |:------------|:--------------:|
-| xx |  xx  |
-| xx |  xx  |
+| GAME |  game number, integer 1-72  |
+| TEAM |  team name  |
+| POINTS |  points scored in the game  |
+| AST |  assists  |
+| ATR |  assist to turnover ratio  |
+| BAP |  Baskets Assisted percentage  |
+| DRB |  defensive rebounds  |
+| FBP |  fast break points  |
+| FGP |  field goal percentage  |
+| FTM |  free throws made  |
+| LSP |  leading scorer points  |
+| ORB |  offensive rebounds  |
+| PIP |  points in the paint  |
+| TO |  turnovers  |
+| TPP |  three point percentage  |
+| FGM |  field goals made  |
+| FTP |  free throw percentage  |
+| TPM |  three pointers made  |
+| TBLOCKS |  team blocks  |
+| *NOTE |  *all features have corresponding oFEATURE denoting "opponent" feature |
+
 ### Correlation Heatmap for Available Features
 ![](https://github.com/ebrodbeck/NBA_Points_Model/blob/main/Correlation%20Heatmap.png)
 ### Ranked Correlations of Features with "Points Scored"
