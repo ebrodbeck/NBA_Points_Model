@@ -48,3 +48,5 @@ Using a dataset of common team statistics from the 2019 season, try to predict t
 ![](https://github.com/ebrodbeck/NBA_Points_Model/blob/main/Arbitrary%20Game%20-%20Team%20Points%20Distribution.png)
 ### Linear SVR Scores with varied number of simulations(sims) and number of games in the training set (lag=5,10,20)
 ![](https://github.com/ebrodbeck/NBA_Points_Model/blob/main/Linear%20SVR%20scores.png)
+### Linear SVR Scores with varied number of simulations and number of games in training, using only games with <35% or >65% projected win probability
+![](https://github.com/ebrodbeck/NBA_Points_Model/blob/main/Linear%20SVR%20scores%20-%20Confident%20Games.png)
